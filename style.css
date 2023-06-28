@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Advent Pro', sans-serif ;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3em;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+/* **************************************Navbar**********************  */
+nav{
+    overflow:hidden;
+    background-color: #FFFAE1;
+    position: fixed;
+    width:100%;
+    opacity:0.9;
+
+}
+header li {
+    float:right;
+    font-size: 1.4em;
+
+}
+header li {
+     text-decoration: none;
+     display:block;
+     text-align: center;
+     padding: 18px 16px;
+
+}
+#logo{
+    font-family:'Roboto',Arial, sans-serif ;
+    font-weight: bold;
+    float:left;
+   
+}
+/* ***********************Image principale ********************* */
+#imagePrincipale{
+    padding-top: 60px;
+    background: url(media/image-principale.JPG) no-repeat fixed  50% 50%;
+    background-size: cover;
+    height:799px;
+}
+h1{
+    font-family: 'Dancing Script', cursive ;
+    text-align: center;
+    color:antiquewhite;
+    font-size: 8em;
+    margin-top: 40px;
+
+}
+/*#premiertrait {
+    height: 1px;
+    width:90%;
+    margin: -3px auto;
+    background-color: #FFFFCC;
+
+
+}*/
+h3{
+    font-family: 'Dancing Script',cursive;
+    text-align: center;
+    color:antiquewhite;
+    font-size: 3.5em;
+    margin-top: -90px;
+   
+
+}
+/* *****************presentation************************* */
+#presentation{
+    background-color:#FFFAE1 ;
+    padding: 10px 0px 100px 0;
+}
+#textIntro{
+    padding: 0px 20%;
+    font-size: 1.5em;
+}
+#prestations{
+    display:flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+padding: 15px 2%;
+}
+/* pour appeler une classe il faut mettre un point */
+.imagesprestations h4{
+    font-family: 'Dancing Script',cursive;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 300;
+    margin: 15px;
+}
+.imagesprestations img{
+     border-radius: 15px 50px;
+     box-shadow: 3px 4px 5px 4px rgba(0,0,0,0.7);
+
+
+}
+.imagesprestations img:hover{
+    opacity:0.5;
+    transform:scale(1.05);
+    transition: 0.8s ease-in-out;
+
+
+}
+/* *******************Tourisme ******************** */
+#tourisme{
+    height:1400px;
+    background-color: #f1f2f6;
+    padding: 1px 2%;
+}
+#tourisme h2{
+    padding-top: 10px;
+   
+   
+
+}
+#ocean{
+    background:url(media/ocean.jpg);
+}
+#chateau{
+    background:url(media/chateau.JPG);
+}
+#phare{
+    background:url(media/phare.JPG);
+}
+#vignoble{
+    background:url(media/vignes.jpg);
+}
+#tourisme li{
+    margin:65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    border-radius: 15px 50px;
+    box-shadow: 3px 4px 5px 4px rgba(0,0,0,0.7);
+    max-width: 550px;
+     float: left;
+}
+#tourisme p {
+    height:45px;
+    width:235px;
+    background-color: #00FFFF;
+    font-family:'Dancing Script',cursive; 
+    float:right;
+    margin:50px -180px 0 0;
+    font-size: 1.5em;
+    text-align:center;
+    padding-top: 15px;
+    box-shadow: 3px 4px 5px 4px rgba(0,0,0,0.7);
+}
+/*************** footer ***************** */
+footer{
+    background-color: #524A3A;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align:center;
+
+}
+form{
+    margin:0 auto;
+    max-width: 900px;
+
+}
+input, textarea,button{
+    border:none;
+    width: 55%;
+    padding: 15px 10px;
+    margin:1px 0;
+    font-size :1.2em;
+    font-family: 'Advent Pro',sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height:120px;
+
+}
+button{
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+/* pour ajouter couleur au bouton une fois touche par le souris */
+button:hover{
+    background-color: #e55039;
+    color: #FFFAE1;
+    cursor:pointer;
+    transition:0.3s ease-in-out;
+}
+#icons a{
+    display:inline-block;
+    padding:0 15px;
+    font-size:1.3em;
+    color: #FFFAE1;
+}
+#icons a:hover{
+    transform:scale(1.5);
+    transition:0.1s;
+
+}
